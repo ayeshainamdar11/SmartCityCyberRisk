@@ -7,8 +7,22 @@ st.set_page_config(
     layout="wide"
 )
 
-st.title("🛡️ Smart City Cyber Risk Prediction")
-st.write("AI-Based Cyber Risk Prediction for Smart Cities")
+
+st.markdown("""
+<div style="
+    background: linear-gradient(120deg, #0b1728, #173b60);
+    padding: 28px;
+    border-radius: 16px;
+    border-left: 5px solid #38bdf8;
+">
+    <h1 style="color: white; margin: 0;">
+        🛡️ SMART CITY SECURITY CENTER
+    </h1>
+    <p style="color: #7dd3fc; font-size: 18px;">
+        AI-Based Cyber Risk Assessment & Investment Planning
+    </p>
+</div>
+""", unsafe_allow_html=True)
 
 st.warning(
     "Educational prototype using sample scoring rules, "
